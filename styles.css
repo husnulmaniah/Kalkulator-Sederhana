@@ -1,0 +1,126 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color:rgb(253, 253, 253);
+}
+.box{
+    border: 1px solid black;
+    background-image: url("back.png");
+    background-repeat: repeat-x;
+    width: 100%;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#container{
+	width: 50%;
+	height: 550px;
+	margin: 0 auto;	
+    display: flex;
+}
+#calculator{
+	width: 43%;
+	height: 100%;
+    background-color: #cae1f0;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#result{
+    height: 120px;
+    background-color: #7d93e0;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #080808;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+#keyboard{
+    height: 100%;
+}
+.operator, .number, .empty{
+    width: 55px;
+    height: 55px;
+    margin: 15px;
+    float: left;
+    border-radius: 20%;
+    border-width: 0;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.operator:hover{
+    background-color: #ffffff;
+}
+.number:hover{
+    background-color: #20b2aa;
+}
+.number, .empty{
+    background-color: #eaedef;
+}
+.operator{
+    background-color:lightgrey;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.number:active, .operator:active{
+    font-size: 13px;
+}
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(1){
+    background-color: #20b2aa;
+}
+button:nth-child(2){
+    background-color: #ffa500;
+}
+button:nth-child(3){
+    background-color: #f08080;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #f08080;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+button:nth-child(17){
+    background-color: #9477af;
+}
+button:nth-child(19){
+    background-color: #9477af;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #9477af;
+}
+footer{
+    margin: 35px;
+    text-align: center;
+}
