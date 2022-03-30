@@ -54,8 +54,8 @@ h2{
     margin-left: 13px;
 }
 .operator, .number, .empty{
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     margin: 15px;
     float: left;
     border-radius: 20%;
