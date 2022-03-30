@@ -23,7 +23,7 @@ h2{
 }
 #calculator{
 	width: 43%;
-	height: 90%;
+	height: 100%;
     background-color: #cae1f0;
     margin: 0 auto;
     position: relative;
@@ -50,11 +50,11 @@ h2{
 
 }
 #keyboard{
-    height: 50%;
+    height: 100%;
 }
 .operator, .number, .empty{
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     margin: 15px;
     float: left;
     border-radius: 20%;
